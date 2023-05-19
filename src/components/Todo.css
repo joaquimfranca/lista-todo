@@ -1,0 +1,78 @@
+body {
+  background: #afcaff;
+}
+
+input {
+    background-color: #f2f4f5;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+.todo-container {
+  background: rgb(255, 255, 255);
+  width: 50%;
+  margin: 10em auto;
+  border-radius: 15px;
+  padding: 20px 10px;
+  color: rgb(0, 0, 0);
+}
+
+.task {
+  background-color: #f2f4f5;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.task button {
+  background: rgb(134, 134, 134);
+  border-radius: 5px;
+  margin: 0px 5px;
+  padding: 3px 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  float: right;
+}
+.task button:hover {
+  background-color: #00b029;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 2em;
+  text-align: center;
+  justify-content: center;
+  font-weight: 400;
+}
+.sub-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+  font-size: 2em;
+  text-align: center;
+  justify-content: center;
+  font-weight: 200;
+}
+
+.tasknumber {
+  font-size: 20px;
+  color: #7c7c7c;
+  margin-left: 0.5em;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  background-color: #cfcfcf;
+}
+
+.create-task input[type="text"] {
+  margin: 2.5em 2em;
+  width: 80%;
+  outline: none;
+  border: none;
+  padding: 0.7em;
+}
